@@ -1,0 +1,32 @@
+{
+  "name": "ju/mgcgl",
+  "description": "聚名敏感词检测，过滤，文本安全，文本检测 -- By 聚名科技",
+  "type": "library",
+  "keywords": [
+    "php",
+    "敏感词",
+    "过滤",
+    "文本安全",
+    "检测"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "damon",
+      "email": "644577519@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "JuMgcgl\\": "src/"
+    }
+  },
+  "extra": {
+
+  }
+}
