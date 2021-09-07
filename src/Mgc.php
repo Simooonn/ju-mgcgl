@@ -242,7 +242,7 @@ class Mgc
      * @param string $text
      * @return mixed
      */
-    public function escape_text($text)
+    public function escape($text)
     {
         $data = $this->scan($text);
         $sensitive_words = $data['words'];
